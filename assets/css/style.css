@@ -1,0 +1,80 @@
+.answerChoice {
+	border: 1px solid black;
+  border-radius: 5%;
+	width: 40%;
+	color: black;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: rgb(180, 31, 31);
+
+}
+
+.answerChoice:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+btn:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+img {
+  max-height: 250px;
+  width: auto;
+}
+
+#answerBlock {
+  text-align: center;
+
+}
+
+#questionBlock {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+#reset {
+  visibility: visible;
+}
+
+body {
+  background-image: url("../images/officebackground.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(6, 7, 7, 0.87);
+  font-weight: bolder;
+  padding: 20px;
+  font-size: 45px;
+}
+
+p {
+  margin: 10px;
+  font-weight: bold;
+  color: rgb(244, 244, 250);
+  font-size: 20px;
+}
+
+h2, h4 {
+  margin: 30px;
+  font-weight: bold;
+}
+
+.wrapper {
+  margin: 10px auto;
+  background-color: rgba(183, 182, 189, 0.9);
+  border: 2px solid orange;
+  height: 550px;
+  width: 60%;
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  bottom: -150px;
+}
